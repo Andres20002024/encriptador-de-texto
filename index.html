@@ -3,31 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Encriptador de Textos</title>
+    <title>Encriptador de Texto</title>
     <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-    <div class="contenedor">
-        <!-- Imagen de la esquina superior izquierda (opcional) -->
-        <img src="logo.png" alt="Logo" class="logo">
-        
-        <!-- Área para ingresar texto -->
-        <textarea id="texto-entrada" placeholder="Ingrese el texto aquí"></textarea>
-        
-        <!-- Botones para encriptar y desencriptar -->
-        <div class="botones">
-            <button onclick="encriptar()">Encriptar</button>
-            <button onclick="desencriptar()">Desencriptar</button>
+    <div class="contenedor-principal">
+        <div class="contenedor-izquierdo">
+            <h1>Ingrese el texto aquí</h1>
+            <textarea id="entrada-texto" placeholder="Ingrese el texto..."></textarea>
+            <p class="mensaje">⚠️ Solo letras minúsculas y sin acentos</p>
+            <div class="botones">
+                <button id="boton-encriptar">Encriptar</button>
+                <button id="boton-desencriptar">Desencriptar</button>
+            </div>
         </div>
-        
-        <!-- Área para mostrar el resultado -->
-        <div id="texto-salida">
-            <p>Ningún mensaje fue encontrado</p>
+        <div class="contenedor-derecho">
+            <img src="persona-con-lupa.png" alt="Persona con lupa">
+            <p id="mensaje-error">Ningún mensaje fue encontrado</p>
+            <p id="mensaje-instrucciones">Ingresa el texto que desees encriptar o desencriptar</p>
+            <p id="resultado"></p>
+            <button id="boton-copiar">Copiar</button>
         </div>
-        
-        <!-- Botón para copiar el texto -->
-        <button id="boton-copiar" onclick="copiarTexto()">Copiar</button>
     </div>
-    <script src="scripts.js"></script>
+
+    <footer>
+        <p>Proyecto creado por FERNANDO ALEXIS GUECHE TINTINAGO - 2024</p>
+    </footer>
+    
+
+    <script src="script.js"></script>
 </body>
 </html>
+
