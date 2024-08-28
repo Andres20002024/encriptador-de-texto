@@ -1,4 +1,5 @@
 
+
 # Encriptador de Textos
 
 Este proyecto es una aplicación web que permite encriptar y desencriptar textos utilizando reglas específicas. Fue desarrollado como parte de un desafío para aprender sobre HTML, CSS, y JavaScript.
@@ -25,3 +26,5 @@ Este proyecto es una aplicación web que permite encriptar y desencriptar textos
 
 
 
+
+ 
