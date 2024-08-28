@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #9cb1dc67;
+    background-color: #df586a67;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,7 +13,7 @@ body {
     justify-content: space-between;
     width: 80%;
     max-width: 1200px;
-    background-color: rgba(164, 150, 244, 0.171);
+    background-color: rgba(37, 10, 195, 0.171);
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -58,12 +58,12 @@ button {
 }
 
 #boton-encriptar {
-    background-color: #0047AB;
+    background-color: #ab616176;
     color: white;
 }
 
 #boton-desencriptar {
-    background-color: #0047AB;
+    background-color: #272829;
     color: #fdfafa;
 }
 
@@ -96,7 +96,7 @@ button {
 
 #boton-copiar {
     margin-top: 10px;
-    background-color: #28a745;
+    background-color: #ed0404;
     color: white;
     display: none;
 }
